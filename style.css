@@ -1,0 +1,156 @@
+* {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4E4E4E;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.container-my-company {
+    font-weight: 700;
+}
+
+.link-lists {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-align: right;
+    font-weight: 400;
+}
+
+
+.container-my-company, .container-links {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+.for-all {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.img-and-shadow {
+    display: flex;
+    display: block;
+    justify-content: center;
+    flex-items: flex-start;
+    position: relative;
+    /* z-index: 1; */
+    
+}
+
+/* .img-and-shadow, .text-and-rectangle {
+    height: 50%;
+} */
+
+.img_forest {
+    width: 960px;
+    min-height: 574px;
+    background-image: url("image_forest-min.png");
+    /* margin: 0 auto; */
+    
+    
+}
+
+.text-and-rectangle {
+position: absolute;
+top: 50%;
+/* width: 100%; */
+left: 236px;
+display: flex;
+flex-direction: column;
+/* justify-content: center;
+align-items: center; */
+/* text-align: left; */
+color: #FFFFFF;
+/* margin: 0 auto; */
+/* font-size: 3rem; */
+
+
+    /* display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2; */
+    /* margin: 0 auto; */
+    /* text-align: left; */
+}
+
+/* .text-and-rectangle {
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+      
+} */
+
+.long-text {
+    font-weight: 700;
+    font-size: 36px;
+ 
+}
+
+.short-text {
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.text_in_the_rectangle {
+    width: 80px;
+    height: auto;
+    text-align: center;
+    /* padding: 15px;
+    display: table-cell;
+    vertical-align: middle; */
+    font-weight: 700;
+    font-size: 18px;
+    border: 3px solid #FFFFFF;
+
+
+}
+
+/* .rectangle {
+    border: 3px solid #FFFFFF;
+
+} */
+
+
+
+
+
+
+
+.container-experts {
+    width: 1280px;
+    height: 2000px;
+    background-color: #F1F1F1;
+}
