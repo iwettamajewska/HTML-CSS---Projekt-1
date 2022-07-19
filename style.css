@@ -14,14 +14,16 @@
     height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #4E4E4E;
     font-size: 18px;
     color: #FFFFFF;
-
 }
 
 .container-my-company {
     font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -41,7 +43,7 @@ a {
 
 
 /* jak mam do linku kontakt dodać jeszcze :disabled? */
-.contact:disabled {
+.disabled {
 cursor: not-allowed;
 }
 
@@ -74,69 +76,54 @@ cursor: not-allowed;
     
 }
 
-/* dlaczego ten shadow mi nie działa? */
-.shadow {
-    box-shadow: inset 0px 0px 100px 25px rgb(6, 25, 230);
-}
+
 
 
 .img_forest {
     width: 960px;
     min-height: 574px;
     background-image: url("image_forest-min.png");
+    z-index: 1;
     /* margin: 0 auto; */
     
-    
 }
+
+/* dlaczego ten shadow mi nie działa? celowo dałam opacity na 1 żeby widzieć czy się nałożył, póniej ustawię na 0,1*/
+.shadow {
+    height: 574px;
+    background-color: #000000;
+    opacity: 1;
+    position: absolute;
+    z-index: 3;
+}
+
 
 .text-and-rectangle {
 position: absolute;
 top: 50%;
-/* width: 100%; */
 left: 236px;
 display: flex;
 flex-direction: column;
-/* justify-content: center;
-align-items: center; */
-/* text-align: left; */
+/* align-items: space-between; */
+justify-content: center;
+z-index: 2;
 color: #FFFFFF;
-/* margin: 0 auto; */
-/* font-size: 3rem; */
-
-
-    /* display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 2; */
-    /* margin: 0 auto; */
-    /* text-align: left; */
 }
 
-/* .text-and-rectangle {
-    color: #FFFFFF;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-      
-} */
+
+
 
 .long-text {
     font-weight: 700;
     font-size: 36px;
+    padding: 0 0 40px;
  
 }
 
 .short-text {
     font-weight: 700;
     font-size: 18px;
+    padding: 0 0 40px;
 
 }
 
@@ -150,12 +137,17 @@ color: #FFFFFF;
     font-weight: 700;
     font-size: 18px;
     border: 3px solid #FFFFFF;
+    padding: 10px;
 }
 
 .text_in_the_rectangle:hover {
     background-color: #FFFFFF;
     color: #000000;
 }
+
+
+
+
 
 /* .rectangle {
     border: 3px solid #FFFFFF;
@@ -175,19 +167,27 @@ color: #FFFFFF;
     font-weight: 700;
     font-size: 36px;
     color: #152D41;
+    padding: 40px 0px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .first-expert, .second-expert {
     font-weight: 400;
     font-size: 18px;
     color: #000000;
+    padding: 40px 0px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .first-circle, .second-circle {
     width: 221px;
     height: 221px;
     border-radius: 50%;
-    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -234,6 +234,10 @@ color: #FFFFFF;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 36px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px 0;
+
 }
 
 
@@ -269,16 +273,50 @@ color: #FFFFFF;
 
 
 
-
-
-
 .footer {
     height: 71px;
     background-color: #4E4E4E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .text-in-footer {
     color: #FFFFFF;
+    font-style: normal;
     font-size: 18px;
     font-weight: 700;
+    margin: 20px;
 }
+
+.fa-instagram, .fa-facebook-square {
+    font-size: 21px;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.fa-facebook-square {
+    margin-right: 20px;
+}
+
+/* .container-of-footer {
+    display: flex;
+    justify-content: baseline;
+} */
+
+.container-of-icons {
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    /* display: flex;
+    justify-content: right;
+    width: 95%; */
+
+}
+
+/* .text-in-footer, .container-of-icons {
+    width: 50%;
+} */
