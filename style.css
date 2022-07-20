@@ -73,7 +73,7 @@ cursor: not-allowed;
     flex-items: flex-start;
     position: relative;
     /* z-index: 1; */
-    
+
 }
 
 
@@ -85,7 +85,7 @@ cursor: not-allowed;
     background-image: url("image_forest-min.png");
     z-index: 1;
     /* margin: 0 auto; */
-    
+
 }
 
 /* dlaczego ten shadow mi nie działa? celowo dałam opacity na 1 żeby widzieć czy się nałożył, póniej ustawię na 0,1*/
@@ -117,7 +117,7 @@ color: #FFFFFF;
     font-weight: 700;
     font-size: 36px;
     padding: 0 0 40px;
- 
+
 }
 
 .short-text {
@@ -198,11 +198,17 @@ color: #FFFFFF;
 .first-circle {
   border: 1px solid #C4C4C4;
   background-color: #C4C4C4;
+  background-image: url('img_woman.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .second-circle {
     border: 1px solid #907D7D;
-    background-color: #907D7D;  
+    background-color: #907D7D;
+    background-image: url('img_man.jpg');
+    background-size: cover;
+    background-position: center;
   }
 
 
@@ -260,6 +266,31 @@ color: #FFFFFF;
     font-size: 18px;
     font-weight: 400;
 }
+
+.box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation-name: box;
+      }
+
+
+ .box:hover {
+    animation-name: grow;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+ }
+
+
+    @keyframes grow {
+        from {
+            transform: scale(1);
+                }
+        to {
+            transform: scale(1.5);
+        }
+    }
+
 
 
 .small-circle {
