@@ -22,7 +22,7 @@
 
 .container-my-company {
     font-weight: 700;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
 }
 
@@ -38,6 +38,7 @@ a {
     list-style-type: none;
     text-align: right;
     font-weight: 400;
+    margin-right: 20px;
 }
 
 
@@ -172,8 +173,8 @@ color: #FFFFFF;
     margin-right: 40px;
 }
 
-.task-even-odd {
-    
+.task-even-odd:nth-child(even) {
+
 }
 
 .first-expert, .second-expert {
@@ -182,7 +183,7 @@ color: #FFFFFF;
     color: #000000;
     padding: 40px 0px;
     margin-left: 40px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .first-circle, .second-circle {
@@ -190,7 +191,7 @@ color: #FFFFFF;
     height: 221px;
     border-radius: 50%;
     margin-left: 40px;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-bottom: 40px;
 }
 
@@ -214,6 +215,13 @@ color: #FFFFFF;
     background-size: cover;
     background-position: center;
   }
+
+  .lorem-first-expert, .lorem-second-expert {
+    margin-right: 20px;
+  }
+
+
+
 
 
 .fist-line {
@@ -244,8 +252,8 @@ color: #FFFFFF;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 36px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     padding: 40px 0;
 
 }
@@ -306,8 +314,8 @@ color: #FFFFFF;
     background-color: #E07A64;
     border-radius: 50%;
     position: absolute;
-    top: 1390px;
-    left: 360px;
+    top: -10px;
+    left: -10px;
 }
 
 
@@ -327,16 +335,22 @@ color: #FFFFFF;
     font-size: 18px;
     font-weight: 700;
     margin: 20px;
+    margin-left: 40px;
 }
 
 .fa-instagram, .fa-facebook-square {
     font-size: 21px;
     color: #FFFFFF;
-    padding: 5px;
+    /* padding: 5px;
+    margin-right: 40px; */
+}
+
+.fa-instagram {
+    padding-right: 20px;
 }
 
 .fa-facebook-square {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 /* .container-of-footer {
