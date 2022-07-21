@@ -172,6 +172,10 @@ color: #FFFFFF;
     margin-right: 40px;
 }
 
+.task-even-odd {
+    
+}
+
 .first-expert, .second-expert {
     font-weight: 400;
     font-size: 18px;
@@ -291,7 +295,9 @@ color: #FFFFFF;
         }
     }
 
-
+.box1 {
+    position: relative;
+}
 
 .small-circle {
     width: 22px;
@@ -299,6 +305,9 @@ color: #FFFFFF;
     border: 1px solid #E07A64;
     background-color: #E07A64;
     border-radius: 50%;
+    position: absolute;
+    top: 1390px;
+    left: 360px;
 }
 
 
