@@ -23,7 +23,7 @@
 .container-my-company {
     font-weight: 700;
     margin-left: 40px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 
@@ -117,14 +117,14 @@ color: #FFFFFF;
 .long-text {
     font-weight: 700;
     font-size: 36px;
-    padding: 0 0 40px;
+    padding: 0 0 20px;
 
 }
 
 .short-text {
     font-weight: 700;
     font-size: 18px;
-    padding: 0 0 40px;
+    padding: 0 0 20px;
 
 }
 
@@ -168,7 +168,7 @@ color: #FFFFFF;
     font-weight: 700;
     font-size: 36px;
     color: #152D41;
-    padding: 40px 0px;
+    padding: 20px 0px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -181,9 +181,9 @@ color: #FFFFFF;
     font-weight: 400;
     font-size: 18px;
     color: #000000;
-    padding: 40px 0px;
+    padding: 20px 0px;
     margin-left: 40px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .first-circle, .second-circle {
@@ -191,7 +191,7 @@ color: #FFFFFF;
     height: 221px;
     border-radius: 50%;
     margin-left: 40px;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-bottom: 40px;
 }
 
@@ -217,7 +217,7 @@ color: #FFFFFF;
   }
 
   .lorem-first-expert, .lorem-second-expert {
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
 
@@ -254,7 +254,7 @@ color: #FFFFFF;
     font-size: 36px;
     margin-left: 40px;
     margin-right: 40px;
-    padding: 40px 0;
+    padding: 20px 0;
 
 }
 
@@ -265,6 +265,7 @@ color: #FFFFFF;
     grid-template-rows: 193.78px 193.78px;
     grid-gap: 10px;
     justify-content: center;
+    align-items: center;
     /* line-height: 50%; */
     /* place-items: center; */
 
