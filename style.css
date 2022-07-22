@@ -68,11 +68,11 @@ cursor: not-allowed;
 }
 
 .img-and-shadow {
-    display: flex;
+    /* display: flex;
     display: block;
     justify-content: center;
     flex-items: flex-start;
-    position: relative;
+    position: relative; */
     /* z-index: 1; */
 
 }
@@ -84,18 +84,20 @@ cursor: not-allowed;
     width: 960px;
     min-height: 574px;
     background-image: url("image_forest-min.png");
-    z-index: 1;
+    position: relative ;
+    /* z-index: 1; */
     /* margin: 0 auto; */
 
 }
 
 /* dlaczego ten shadow mi nie działa? celowo dałam opacity na 1 żeby widzieć czy się nałożył, póniej ustawię na 0,1*/
 .shadow {
-    height: 574px;
+    height: 100%;
+    width: 100%;
     background-color: #000000;
-    opacity: 1;
+    opacity: 0.5;
     position: absolute;
-    z-index: 3;
+    /* z-index: 3; */
 }
 
 
@@ -107,7 +109,7 @@ display: flex;
 flex-direction: column;
 /* align-items: space-between; */
 justify-content: center;
-z-index: 2;
+/* z-index: 2; */
 color: #FFFFFF;
 }
 
@@ -245,7 +247,8 @@ color: #FFFFFF;
 
 .about-company {
     background-color: #405D78;
-    height: 689px;
+    height: auto;
+    padding: 20px 0;
 }
 
 .main-text-about-company {
@@ -254,7 +257,8 @@ color: #FFFFFF;
     font-size: 36px;
     margin-left: 40px;
     margin-right: 40px;
-    padding: 20px 0;
+    margin-bottom: 20px;
+    /* padding: 20px 0; */
 
 }
 
