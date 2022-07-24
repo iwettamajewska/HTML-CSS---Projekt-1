@@ -4,18 +4,20 @@
    padding: 0;
 }
 
-.container {
-    width: 960px;
-    height: auto;
-    margin: 0 auto;
+
+/* NAVIGATION SECTION */
+
+.navigation {
+background-color: #4E4E4E;
 }
 
 .container-navigation {
+    width: 960px;
     height: 50px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4E4E4E;
     font-size: 18px;
     color: #FFFFFF;
 }
@@ -43,7 +45,6 @@ a {
 
 
 
-/* jak mam do linku kontakt dodać jeszcze :disabled? */
 .disabled {
 cursor: not-allowed;
 }
@@ -55,49 +56,46 @@ cursor: not-allowed;
 
 
 
-
-
-
-
-
-
-.for-all {
+/* .for-all {
     width: 960px;
     margin: 0 auto;
     left: 236px;
+} */
+
+
+
+
+/* FOREST SECTION */
+
+/* .img_container
+{
+    margin: 0 auto;
+    width: 100vh;
 }
+
 
 .img-and-shadow {
-    /* display: flex;
-    display: block;
-    justify-content: center;
-    flex-items: flex-start;
-    position: relative; */
-    /* z-index: 1; */
-
-}
-
-
-
+    margin: 0 auto;
+} */
 
 .img_forest {
-    width: 960px;
+    /* width: 960px; */
     min-height: 574px;
     background-image: url("image_forest-min.png");
-    position: relative ;
-    /* z-index: 1; */
-    /* margin: 0 auto; */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+
 
 }
 
-/* dlaczego ten shadow mi nie działa? celowo dałam opacity na 1 żeby widzieć czy się nałożył, póniej ustawię na 0,1*/
 .shadow {
     height: 100%;
     width: 100%;
     background-color: #000000;
-    opacity: 0.5;
+    opacity: 0.1;
     position: absolute;
-    /* z-index: 3; */
 }
 
 
@@ -107,9 +105,7 @@ top: 50%;
 left: 236px;
 display: flex;
 flex-direction: column;
-/* align-items: space-between; */
 justify-content: center;
-/* z-index: 2; */
 color: #FFFFFF;
 }
 
@@ -134,9 +130,6 @@ color: #FFFFFF;
     width: 80px;
     height: auto;
     text-align: center;
-    /* padding: 15px;
-    display: table-cell;
-    vertical-align: middle; */
     font-weight: 700;
     font-size: 18px;
     border: 3px solid #FFFFFF;
@@ -152,18 +145,17 @@ color: #FFFFFF;
 
 
 
-/* .rectangle {
-    border: 3px solid #FFFFFF;
+/* EXPERT SECTION */
 
-} */
-
-
+.about-us-container {
+background-color: #F1F1F1;
+}
 
 
 .container-experts {
-    max-width: 1280px;
-    max-width: 2000px;
-    background-color: #F1F1F1;
+    /* max-width: 1280px;
+    max-width: 2000px; */
+    /* background-color: #F1F1F1; */
 }
 
 .main-text-experts {
@@ -175,9 +167,6 @@ color: #FFFFFF;
     margin-right: 40px;
 }
 
-.task-even-odd:nth-child(even) {
-
-}
 
 .first-expert, .second-expert {
     font-weight: 400;
@@ -188,60 +177,60 @@ color: #FFFFFF;
     margin-right: 40px;
 }
 
-.first-circle, .second-circle {
+.circle {
     width: 221px;
     height: 221px;
     border-radius: 50%;
+    padding: 0 60px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
 }
 
 
-.name-first-expert, .name-second-expert {
+.name-expert {
     font-weight: bold;
 }
 
+
+
+
+
 .first-circle {
-  border: 1px solid #C4C4C4;
-  background-color: #C4C4C4;
   background-image: url('img_woman.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
 .second-circle {
-    border: 1px solid #907D7D;
-    background-color: #907D7D;
     background-image: url('img_man.jpg');
-    background-size: cover;
-    background-position: center;
+
   }
 
-  .lorem-first-expert, .lorem-second-expert {
+.circle {
+    border: 1px solid #C4C4C4;
+    background-color: #C4C4C4;
+    background-size: cover;
+    background-position: center;
+}
+
+
+  .lorem-expert {
     margin-right: 40px;
   }
 
 
-
-
-
-.fist-line {
-    display: grid;
-    grid-template-columns: 33% 66%;
-    grid-template-rows: 33% 60%;
-    grid-gap: 1%;
+.about-experts {
+    display: flex;
 }
 
-.second-line {
-    display: grid;
-    grid-template-columns: 66% 33%;
-    grid-template-rows: 66% 33%;
-    grid-gap: 1%;
+.about-experts:nth-of-type(even) {
+flex-direction: row-reverse;
+text-align: right;
 }
 
 
 
+
+/* ABOUT COMPANY SECTION */
 
 
 
@@ -253,12 +242,12 @@ color: #FFFFFF;
 
 .main-text-about-company {
     color: #FFFFFF;
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 20px;
-    /* padding: 20px 0; */
 
 }
 
@@ -324,6 +313,7 @@ color: #FFFFFF;
 }
 
 
+/* FOOTER SECTION */
 
 
 .footer {
@@ -346,8 +336,6 @@ color: #FFFFFF;
 .fa-instagram, .fa-facebook-square {
     font-size: 21px;
     color: #FFFFFF;
-    /* padding: 5px;
-    margin-right: 40px; */
 }
 
 .fa-instagram {
@@ -358,24 +346,8 @@ color: #FFFFFF;
     margin-right: 40px;
 }
 
-/* .container-of-footer {
-    display: flex;
-    justify-content: baseline;
-} */
 
 .container-of-icons {
     display: flex;
     justify-content: space-between;
-    /* margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px; */
-    /* display: flex;
-    justify-content: right;
-    width: 95%; */
-
 }
-
-/* .text-in-footer, .container-of-icons {
-    width: 50%;
-} */
