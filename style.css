@@ -163,6 +163,7 @@ background-color: #F1F1F1;
     font-weight: 700;
     font-size: 36px;
     color: #152D41;
+    padding: 20px 0;
     /* padding: 20px 0px;
     margin-left: 40px;
     margin-right: 40px; */
@@ -175,6 +176,13 @@ background-color: #F1F1F1;
     height: 100%;
 }
 
+.first-expert {
+    margin-left: 20px;
+}
+
+.second-expert {
+    margin-right: 20px;
+}
 
 
 .circle {
@@ -207,9 +215,9 @@ background-color: #F1F1F1;
 }
 
 
-  .lorem-expert {
+  /* .lorem-expert {
     margin-right: 40px;
-  }
+  } */
 
 
 .about-experts {
@@ -335,8 +343,13 @@ text-align: right;
     font-style: normal;
     font-size: 18px;
     font-weight: 700;
-    margin: 20px;
+    /* margin: 20px;
     margin-left: 40px;
+} */
+
+.fa-instagram, .fa-facebook-square {
+    font-size: 21px;
+    color: #FFFFFF;
 }
 
 .fa-instagram, .fa-facebook-square {
