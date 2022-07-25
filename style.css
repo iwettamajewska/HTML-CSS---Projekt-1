@@ -67,16 +67,6 @@ cursor: not-allowed;
 
 /* FOREST SECTION */
 
-/* .img_container
-{
-    margin: 0 auto;
-    width: 100vh;
-}
-
-
-.img-and-shadow {
-    margin: 0 auto;
-} */
 
 .img_forest {
     /* width: 960px; */
@@ -147,54 +137,45 @@ color: #FFFFFF;
 
 /* EXPERT SECTION */
 
+
+
 .about-us-container {
 background-color: #F1F1F1;
 }
 
-
-.container-experts {
-    /* max-width: 1280px;
-    max-width: 2000px; */
-    /* background-color: #F1F1F1; */
+.container-expert {
+    width: 960px;
+    padding-left: 100px;
+    margin-left: 100px;
 }
+
+
 
 .main-text-experts {
     font-weight: 700;
     font-size: 36px;
     color: #152D41;
-    padding: 20px 0px;
+    /* padding: 20px 0px;
     margin-left: 40px;
-    margin-right: 40px;
+    margin-right: 40px; */
 }
 
 
-.first-expert, .second-expert {
-    font-weight: 400;
-    font-size: 18px;
-    color: #000000;
-    padding: 20px 0px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
+
 
 .circle {
     width: 221px;
     height: 221px;
     border-radius: 50%;
     padding: 0 60px;
-    margin-left: 40px;
+    /* margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 40px; */
+    border: 1px solid #C4C4C4;
+    background-color: #C4C4C4;
+    background-size: cover;
+    background-position: center;
 }
-
-
-.name-expert {
-    font-weight: bold;
-}
-
-
-
-
 
 .first-circle {
   background-image: url('img_woman.jpg');
@@ -205,11 +186,8 @@ background-color: #F1F1F1;
 
   }
 
-.circle {
-    border: 1px solid #C4C4C4;
-    background-color: #C4C4C4;
-    background-size: cover;
-    background-position: center;
+.name-expert {
+    font-weight: bold;
 }
 
 
@@ -240,16 +218,17 @@ text-align: right;
     padding: 20px 0;
 }
 
-.main-text-about-company {
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 20px;
 
+.main-text-about-company {
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
+
+
 
 
 .container-of-company-boxes {
@@ -259,8 +238,6 @@ text-align: right;
     grid-gap: 10px;
     justify-content: center;
     align-items: center;
-    /* line-height: 50%; */
-    /* place-items: center; */
 
 }
 
@@ -277,7 +254,7 @@ text-align: right;
         display: flex;
         justify-content: center;
         align-items: center;
-        animation-name: box;
+        /* animation-name: grow; */
       }
 
 
@@ -316,12 +293,24 @@ text-align: right;
 /* FOOTER SECTION */
 
 
-.footer {
-    height: 71px;
-    background-color: #4E4E4E;
+/* .for-all {
+    width: 960px;
+    margin: 0 auto;
+    left: 236px;
+} */
+
+.footer-container {
+    width: 960px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer {
+    height: 71px;
+    background-color: #4E4E4E;
+
 }
 
 .text-in-footer {
