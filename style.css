@@ -214,6 +214,7 @@ background-color: #F1F1F1;
 
 .about-experts {
     display: flex;
+    align-items: center;
 }
 
 .about-experts:nth-of-type(even) {
