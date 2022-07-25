@@ -16,9 +16,7 @@ background-color: #4E4E4E;
 }
 
 .container-navigation {
-    /* width: 960px; */
     height: 50px;
-    /* margin: 0 auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,20 +55,11 @@ cursor: not-allowed;
 
 
 
-/* .for-all {
-    width: 960px;
-    margin: 0 auto;
-    left: 236px;
-} */
-
-
-
 
 /* FOREST SECTION */
 
 
 .img_forest {
-    /* width: 960px; */
     min-height: 574px;
     background-image: url("image_forest-min.png");
     background-size: cover;
@@ -151,12 +140,6 @@ color: #FFFFFF;
 background-color: #F1F1F1;
 }
 
-/* .container-expert {
-    width: 960px;
-    padding-left: 100px;
-    margin-left: 100px;
-} */
-
 
 
 .main-text-experts {
@@ -164,9 +147,6 @@ background-color: #F1F1F1;
     font-size: 36px;
     color: #152D41;
     padding: 20px 0;
-    /* padding: 20px 0px;
-    margin-left: 40px;
-    margin-right: 40px; */
 }
 
 .expert {
@@ -188,13 +168,7 @@ background-color: #F1F1F1;
 .circle {
     width: 221px;
     height: 221px;
-    /* width: 221px;
-    height: 100%; */
     border-radius: 50%;
-    /* padding: 0 60px; */
-    /* margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 40px; */
     border: 1px solid #C4C4C4;
     background-color: #C4C4C4;
     background-size: cover;
@@ -279,7 +253,6 @@ text-align: right;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* animation-name: grow; */
       }
 
 
@@ -318,18 +291,11 @@ text-align: right;
 /* FOOTER SECTION */
 
 
-/* .for-all {
-    width: 960px;
-    margin: 0 auto;
-    left: 236px;
-} */
-
 .footer-container {
-    width: 960px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .footer {
@@ -343,28 +309,24 @@ text-align: right;
     font-style: normal;
     font-size: 18px;
     font-weight: 700;
-    /* margin: 20px;
-    margin-left: 40px;
+}
+
+.fa-instagram, .fa-facebook-square {
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.container-of-footer {
+    width: 95%;
+}
+
+.container-of-icons {
+    width: 5%;
+}
+
+/* .container-of-footer, .container-of-icons {
+    width: 50%;
 } */
-
-.fa-instagram, .fa-facebook-square {
-    font-size: 21px;
-    color: #FFFFFF;
-}
-
-.fa-instagram, .fa-facebook-square {
-    font-size: 21px;
-    color: #FFFFFF;
-}
-
-.fa-instagram {
-    padding-right: 20px;
-}
-
-.fa-facebook-square {
-    margin-right: 40px;
-}
-
 
 .container-of-icons {
     display: flex;
