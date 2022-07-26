@@ -24,16 +24,15 @@ background-color: #4E4E4E;
     color: #FFFFFF;
 }
 
+.container-my-company, .container-links {
+    width: 50%;
+}
+
 .container-my-company {
     font-weight: 700;
+    font-size: 18px;
 }
 
-
-a {
-    color: #FFFFFF;
-    background-color: transparent;
-    text-decoration: none;
-}
 .link-lists {
     display: flex;
     justify-content: space-around;
@@ -42,22 +41,18 @@ a {
     font-weight: 400;
 }
 
-
+.link {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
 
 .disabled {
 cursor: not-allowed;
 }
 
-.container-my-company, .container-links {
-    width: 50%;
-}
-
-
-
-
 
 /* FOREST SECTION */
-
 
 .img_forest {
     min-height: 574px;
@@ -66,8 +61,6 @@ cursor: not-allowed;
     background-position: center;
     position: relative;
     margin: 0 auto;
-
-
 }
 
 .shadow {
@@ -83,7 +76,6 @@ cursor: not-allowed;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-
 }
 
 .text-and-rectangle {
@@ -95,9 +87,6 @@ flex-direction: column;
 justify-content: center;
 color: #FFFFFF;
 }
-
-
-
 
 .long-text {
     font-weight: 700;
@@ -129,24 +118,27 @@ color: #FFFFFF;
 }
 
 
-
-
-
 /* EXPERT SECTION */
-
-
 
 .about-us-container {
 background-color: #F1F1F1;
 }
-
-
 
 .main-text-experts {
     font-weight: 700;
     font-size: 36px;
     color: #152D41;
     padding: 20px 0;
+}
+
+.about-experts {
+    display: flex;
+    align-items: center;
+}
+
+.about-experts:nth-of-type(even) {
+flex-direction: row-reverse;
+text-align: right;
 }
 
 .expert {
@@ -163,7 +155,6 @@ background-color: #F1F1F1;
 .second-expert {
     margin-right: 20px;
 }
-
 
 .circle {
     width: 221px;
@@ -182,41 +173,20 @@ background-color: #F1F1F1;
 .second-circle {
     background-image: url('img_man.jpg');
 
-  }
+}
 
 .name-expert {
     font-weight: bold;
 }
 
 
-  /* .lorem-expert {
-    margin-right: 40px;
-  } */
-
-
-.about-experts {
-    display: flex;
-    align-items: center;
-}
-
-.about-experts:nth-of-type(even) {
-flex-direction: row-reverse;
-text-align: right;
-}
-
-
-
-
 /* ABOUT COMPANY SECTION */
-
-
 
 .about-company {
     background-color: #405D78;
     height: auto;
     padding: 20px 0;
 }
-
 
 .main-text-about-company {
     font-size: 36px;
@@ -227,9 +197,6 @@ text-align: right;
     padding: 20px 0;
 }
 
-
-
-
 .container-of-company-boxes {
     display: grid;
     grid-template-columns: 198px 198px 198px;
@@ -237,10 +204,12 @@ text-align: right;
     grid-gap: 10px;
     justify-content: center;
     align-items: center;
-
 }
 
-.box1, .box2, .box3, .box4, .box5, .box6 {
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F1F1F1;
     border: 1px solid #F1F1F1;
     width: 198px;
@@ -249,33 +218,10 @@ text-align: right;
     font-weight: 400;
 }
 
-.box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-
- .box:hover {
-    animation-name: grow;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
- }
-
-
-    @keyframes grow {
-        from {
-            transform: scale(1);
-                }
-        to {
-            transform: scale(1.5);
-        }
-    }
-
 .box1 {
     position: relative;
 }
-
+    
 .small-circle {
     width: 22px;
     height: 22px;
@@ -287,21 +233,34 @@ text-align: right;
     left: -10px;
 }
 
+.box:hover {
+    animation-name: grow;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+    @keyframes grow {
+        from {
+            transform: scale(1);
+                }
+        to {
+            transform: scale(1.5);
+        }
+    }
+
 
 /* FOOTER SECTION */
 
+.footer {
+    height: 71px;
+    background-color: #4E4E4E;
+}
 
 .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
-}
-
-.footer {
-    height: 71px;
-    background-color: #4E4E4E;
-
 }
 
 .text-in-footer {
@@ -311,12 +270,7 @@ text-align: right;
     font-weight: 700;
 }
 
-.fa-instagram, .fa-facebook-square {
-    font-size: 21px;
-    color: #FFFFFF;
-}
-
-.container-of-footer {
+.container-of-text-in-footer {
     width: 95%;
 }
 
@@ -324,11 +278,12 @@ text-align: right;
     width: 5%;
 }
 
-/* .container-of-footer, .container-of-icons {
-    width: 50%;
-} */
-
 .container-of-icons {
     display: flex;
     justify-content: space-between;
+}
+
+.socialmedia-icon {
+    font-size: 21px;
+    color: #FFFFFF;
 }
