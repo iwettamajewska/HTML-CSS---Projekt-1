@@ -81,7 +81,6 @@ cursor: not-allowed;
 .text-and-rectangle {
 position: absolute;
 top: 50%;
-left: 236px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -229,8 +228,8 @@ text-align: right;
     background-color: #E07A64;
     border-radius: 50%;
     position: absolute;
-    top: -10px;
-    left: -10px;
+    top: -11px;
+    left: -11px;
 }
 
 .box:hover {
@@ -284,6 +283,7 @@ text-align: right;
 }
 
 .socialmedia-icon {
-    font-size: 21px;
+    width: 31px;
+    height: 31px;
     color: #FFFFFF;
 }
