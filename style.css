@@ -277,7 +277,7 @@
 }
 
 .socialmedia-icon {
-  width: 31px;
-  height: 31px;
+  min-width: 31px;
+  height: auto;
   color: #ffffff;
 }
