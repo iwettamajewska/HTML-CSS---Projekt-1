@@ -56,7 +56,7 @@
 
 .img_forest {
   min-height: 574px;
-  background-image: url("image_forest-min.png");
+  background-image: url("images/image-forest-min.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -163,11 +163,11 @@
 }
 
 .first-circle {
-  background-image: url("img_woman.jpg");
+  background-image: url("images/img-woman.jpg");
 }
 
 .second-circle {
-  background-image: url("img_man.jpg");
+  background-image: url("images/img-man.jpg");
 }
 
 .name-expert {
