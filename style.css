@@ -24,9 +24,12 @@
   color: #ffffff;
 }
 
-.container-my-company,
+.container-my-company{
+  width: 75%;
+}
+
 .container-links {
-  width: 50%;
+  width: 25%;
 }
 
 .container-my-company {
@@ -36,7 +39,7 @@
 
 .link-lists {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style-type: none;
   text-align: right;
   font-weight: 400;
@@ -52,10 +55,15 @@
   cursor: not-allowed;
 }
 
+.smooth {
+  scroll-behavior: smooth;
+}
+
 /* FOREST SECTION */
 
 .img-forest {
-  min-height: 574px;
+  /* min-height: 574px; */
+  min-height: 100vh;
   background-image: url("images/image-forest-min.png");
   background-size: cover;
   background-position: center;
@@ -99,7 +107,7 @@
   padding: 0 0 20px;
 }
 
-.text-in-the-rectangle {
+.text-in-rectangle {
   width: 80px;
   height: auto;
   text-align: center;
@@ -109,23 +117,24 @@
   padding: 10px;
 }
 
-.text-in-the-rectangle:hover {
+.text-in-rectangle:hover {
   background-color: #ffffff;
   color: #000000;
+  transition: 1s;
 }
 
 /* EXPERT SECTION */
 
 .about-us-container {
   background-color: #f1f1f1;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .main-text-experts {
   font-weight: 700;
   font-size: 36px;
   color: #152d41;
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 
 .about-experts {
@@ -189,7 +198,7 @@
   color: #ffffff;
   width: 960px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 
 .container-of-company-boxes {
@@ -205,12 +214,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color: #f1f1f1;
   border: 1px solid #f1f1f1;
   width: 198px;
   height: 193.78px;
   font-size: 18px;
   font-weight: 400;
+  transition: 0.5s;
 }
 
 .box1 {
@@ -229,18 +240,7 @@
 }
 
 .box:hover {
-  animation-name: grow;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
-}
-
-@keyframes grow {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.5);
-  }
+  transform: scale(1.05);
 }
 
 /* FOOTER SECTION */
@@ -265,11 +265,11 @@
 }
 
 .container-of-text-in-footer {
-  width: 95%;
+  width: 93%;
 }
 
 .container-of-icons {
-  width: 5%;
+  width: 7%;
 }
 
 .container-of-icons {
@@ -278,7 +278,7 @@
 }
 
 .socialmedia-icon {
-  min-width: 31px;
+  font-size: 31px;
   height: auto;
   color: #ffffff;
 }
