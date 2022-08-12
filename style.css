@@ -4,11 +4,14 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 960px;
   margin: 0 auto;
 }
-
 
 /* NAVIGATION SECTION */
 
@@ -25,7 +28,7 @@
   color: #ffffff;
 }
 
-.container-my-company{
+.container-my-company {
   width: 75%;
 }
 
@@ -63,8 +66,7 @@
 /* FOREST SECTION */
 
 .img-forest {
-  /* min-height: 574px; */
-  min-height: 100vh;
+  height: calc(100vh - 50px);
   background-image: url("images/image-forest-min.png");
   background-size: cover;
   background-position: center;
@@ -116,12 +118,12 @@
   font-size: 18px;
   border: 3px solid #ffffff;
   padding: 10px;
+  transition: 1s;
 }
 
 .text-in-rectangle:hover {
   background-color: #ffffff;
   color: #000000;
-  transition: 1s;
 }
 
 /* EXPERT SECTION */
