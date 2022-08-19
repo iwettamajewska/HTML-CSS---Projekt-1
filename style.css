@@ -28,10 +28,6 @@ html {
   color: #ffffff;
 }
 
-.container-my-company {
-  width: 75%;
-}
-
 .container-links {
   width: 25%;
 }
@@ -130,7 +126,7 @@ html {
 
 .about-us-container {
   background-color: #f1f1f1;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .main-text-experts {
@@ -192,7 +188,7 @@ html {
 .about-company {
   background-color: #405d78;
   height: auto;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .main-text-about-company {
@@ -208,7 +204,7 @@ html {
   display: grid;
   grid-template-columns: 198px 198px 198px;
   grid-template-rows: 193.78px 193.78px;
-  grid-gap: 10px;
+  grid-gap: 63px;
   justify-content: center;
   align-items: center;
 }
