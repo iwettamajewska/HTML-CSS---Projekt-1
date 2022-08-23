@@ -55,10 +55,6 @@ html {
   cursor: not-allowed;
 }
 
-.smooth {
-  scroll-behavior: smooth;
-}
-
 /* FOREST SECTION */
 
 .img-forest {
